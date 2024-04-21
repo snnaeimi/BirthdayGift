@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "birthdayFont";
+    src: url(sweetie.ttf)
+  }
+
+body{
+ background-image: url(background.jpg);   
+ background-size: cover;
+ text-align: center;
+ margin-top: 600px;
+ margin-bottom: 600px;
+ font-family: "birthdayFont";
+}
+
+.birthdayBoyImg{
+    width: 300px;
+    border-radius: 50%;
+}
+
+p{
+    font-size: 20px;
+}
+
+.birthdayPart{
+    margin-top: 50px;
+}
+
+.giftPart{
+    margin: 0 auto;
+    background-image: url(gift.jpg);
+    width: 320px;
+    height: 300px;
+}
+
+#firstGift:hover{
+    background-image: url(firstPart.gif);
+    background-size: 320px;
+}
+
+#secondGift:hover{
+    background-image: url(gift.gif);
+    background-size: cover;
+}
+
+#thirdGift:hover{
+    background-image: url(cake.gif);
+    background-size: 320px;
+}
